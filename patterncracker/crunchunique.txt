@@ -1,0 +1,2 @@
+crunch  8  8  ABCDEFGHIJKLMNOPQRSTUVWXYZ  -t  @@@@@@@@  | perl -ne 'print unless /([A-Z]).*\1/' > wordlist.txt
+
